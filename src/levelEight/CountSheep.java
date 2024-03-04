@@ -1,5 +1,6 @@
 package levelEight;
 
+// https://www.codewars.com/kata/54edbc7200b811e956000556
 public class CountSheep {
     public static void main(String[] args) {
         System.out.println(countSheep(new boolean[]{true, true, true, false,
