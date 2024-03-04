@@ -13,6 +13,7 @@ public class ReverseWords {
         for (int i = array.length - 1; i >= 0; i--) {
             resultArray[i] = array[array.length - 1 - i];
         }
-        return Arrays.toString(resultArray).replaceAll("[\\]\\[,]", "");
+//        return Arrays.toString(resultArray).replaceAll("[\\]\\[,]", "");
+        return String.join(" ", resultArray);
     }
 }
