@@ -8,9 +8,12 @@ public class No13InArray {
     }
 
     static boolean lucky13(int[] numbers) {
-        for (int integer : numbers) {
-            return integer != 1 && integer != 3;
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] == 1 || numbers[i] == 3) {
+                return false;
+            }
         }
-        return false;
+        return true;
     }
 }
+
